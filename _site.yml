@@ -1,0 +1,11 @@
+name: "Yoon H. Hong"
+navbar:
+  title: "Data medicine w/ R"
+  left:
+    - text: "by Yoon H. Hong"
+    - icon: fa-github fa-lg
+      href: http://www.github.com/yoonhohong/datamed
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
