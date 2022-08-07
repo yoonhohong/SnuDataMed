@@ -1,6 +1,6 @@
 name: "Yoon H. Hong"
 navbar:
-  title: "Data medicine w/ R"
+  title: "Data medicine with R"
   left:
     - text: "by Yoon H. Hong"
     - icon: fa-github fa-lg
