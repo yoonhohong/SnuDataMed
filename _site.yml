@@ -1,5 +1,5 @@
 name: "Yoon H. Hong"
-out_dir: "."
+output_dir: "docs"
 navbar:
   title: "Data medicine with R"
   left:
