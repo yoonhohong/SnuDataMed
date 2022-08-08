@@ -625,6 +625,18 @@ ls() # list R objects
 rm() # remove R objects
 ?ls</code></pre>
 </div>
+<div id="패키징packages-설치-및-로딩" class="section level3">
+<h3>패키지(ᆼpackages) 설치 및 로딩</h3>
+<p>R에서 패키지(package)는 함수, 데이터, 코드, 문서 등을 묶어놓은 것을
+말합니다. R을 설치하면 자동으로 기본 패키지들이 설치되는데, 이들이
+제공하지 못하는 기능들은 새로운 패키지를 설치해서 사용합니다. 현재
+10,000여개 이상의 패키지들이 CRAN, Bioconductor, GitHub 등의
+repository에 저장되어 있습니다.<br />
+다음은 다음에 다룰 데이터 가공에 필요한 <em>dplyr</em> 패키지를 설치하고
+로딩하는 코드입니다.</p>
+<pre class="r"><code>install.packages(&quot;dplyr&quot;)
+library(dplyr)</code></pre>
+</div>
 <div id="주요-참고자료" class="section level3">
 <h3>주요 참고자료</h3>
 <p>R 기초와 데이터 타입, 데이터 구조<br />
@@ -647,7 +659,10 @@ R</a><br />
 <a href="https://youtu.be/qvSKipqzg3U">How to use conditional statements
 in R</a><br />
 <a href="https://www.youtube.com/watch?v=M4fMccWy5lU">Writing functions
-in R</a></p>
+in R</a><br />
+<a
+href="https://www.datacamp.com/community/tutorials/r-packages-guide#what">R
+packages: Beginner’s Guide</a></p>
 </div>
 
 
